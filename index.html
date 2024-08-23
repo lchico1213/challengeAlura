@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz de Encriptación</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/stylesChallenge.css">
+</head>
+
+<body>
+    <header>
+        <div class="container__header">
+            <div class="header">
+                <img loading="lazy" class="logo" src="./assets/logo.png">
+            </div>
+        </div>
+    </header>
+    <main>
+        <article class="container">
+            <section class="left" id="left">
+                <textarea class="inputtextarea" id="textoEntrada" placeholder="Ingrese el texto aqui"
+                    autofocus></textarea>
+                <div class="content_botones">
+                    <span class="info">
+                        <img src="./assets/alerta.jpg" alt="alerta" class="img-2" />
+                        Solo letras minúsculas y sin acentos
+                    </span>
+                    <div class="botones">
+                        <button id="encriptar" onclick="encriptar();" class="encriptar">Encriptar</button>
+                        <button id="desencriptar" onclick="desencriptar();" class="desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="right" id="rigth">
+                <img id="imagenRespuesta" class="imagenRespuesta" src="./assets/imagen1.jpg"
+                    alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.">
+                <textarea id="textoEntrada2" class="textoFinal" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="textoInfo" class="info">Ingresa el texto que desees encriptar o desencriptar.</p>
+               
+                <button id="copiar" class="copiar bn_ocultar" onclick="copiarTexto();">Copiar</button>
+                
+            </section>
+        </article>
+    </main>
+    <script src="./js/app.js" defer></script>
+</body>
+
+</html>
