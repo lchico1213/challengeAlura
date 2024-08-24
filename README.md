@@ -12,6 +12,10 @@
 - **CSS:** Los estilos que le dan vida y color a la página.
 - **JavaScript:** La magia detrás de la encriptación y desencriptación.
 
+## Autor
+
+Desarrollado por Laura Lucia Chico.
+
 ## Instalación
 
 No necesitas ser un experto para probar este proyecto. Simplemente sigue estos sencillos pasos:
@@ -20,6 +24,4 @@ No necesitas ser un experto para probar este proyecto. Simplemente sigue estos s
 git clone https://github.com/lchico1213/challengeAlura.git
 cd nombre-del-repositorio
 
-## Autor
 
-Desarrollado por Laura Lucia Chico.
